@@ -110,7 +110,8 @@ try:
                             time.sleep(1)
                             terminal_alignment.clear_terminal()
                             break
-                        elif temp_unit == "":
+                        elif temp_unit == "0" or temp_unit == 0:
+                            terminal_alignment.clear_terminal()
                             break
                         else:
                             terminal_alignment.print_center(f"Enter valid SI unit.")
