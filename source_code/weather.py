@@ -1,4 +1,4 @@
-import weather_functions as weather_functions
+import weather_functions
 import terminal_alignment
 import datetime
 import time
